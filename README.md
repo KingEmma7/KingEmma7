@@ -1,12 +1,13 @@
-Heyy! I'm Emmanuel! 
+Heyy! I'm Emmanuel! <br/>
 
-Nice to meet you! 😉
+<span> Nice to meet you! 😉 </span>
+
 I'm a Frontend Developer with experience building web-apps using ReactJS! 
 
 My goal is utmost dedication to life-long learning! 
 
-When I'm not nose deep into my MacBook solving the problems of the world, 
+When I'm not nose deep into coding : 
 
-- I play guitar , write poems, and work out! 💪🏽
+- I play guitar 🎸  , ✍️ write poems, and work out! 💪🏽
 
 
