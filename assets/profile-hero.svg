@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title description">
+  <title id="title">Emmanuel Tagbor — Senior Software Engineer</title>
+  <desc id="description">A system map connecting product, backend, insight and delivery around dependable software.</desc>
+
+  <defs>
+    <linearGradient id="dark-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0d192c"/>
+      <stop offset="1" stop-color="#15233b"/>
+    </linearGradient>
+    <linearGradient id="light-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfcfe"/>
+      <stop offset="0.55" stop-color="#f3f7fa"/>
+      <stop offset="1" stop-color="#eaf1f6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="core" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#60a5fa" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.06"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="currentColor" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .background { fill: url(#dark-background); }
+      .border { fill: none; stroke: #263754; }
+      .grid { color: #8aa1c4; opacity: .065; }
+      .eyebrow { fill: #7dd3fc; }
+      .heading { fill: #f8fafc; }
+      .body { fill: #b7c5d9; }
+      .subtle { fill: #7f91aa; }
+      .connector { fill: none; stroke: #506581; stroke-width: 1.5; stroke-dasharray: 5 7; opacity: .72; }
+      .node { fill: #101f35; stroke: #304563; }
+      .node-label { fill: #d9e4f2; }
+      .core-ring { fill: url(#core); stroke: #5f7697; }
+      .core-label { fill: #f8fafc; }
+      .motion { filter: url(#glow); }
+      text { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+      @media (prefers-color-scheme: light) {
+        .background { fill: url(#light-background); }
+        .border { stroke: #d7e0e9; }
+        .grid { color: #52657d; opacity: .075; }
+        .eyebrow { fill: #0369a1; }
+        .heading { fill: #111827; }
+        .body { fill: #405169; }
+        .subtle { fill: #64748b; }
+        .connector { stroke: #8ba0b7; opacity: .8; }
+        .node { fill: #ffffff; stroke: #cad6e2; }
+        .node-label { fill: #26364b; }
+        .core-ring { stroke: #8ca0b7; }
+        .core-label { fill: #182235; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect class="background" x="1" y="1" width="1198" height="378" rx="28"/>
+  <rect class="grid" x="1" y="1" width="1198" height="378" rx="28" fill="url(#grid)"/>
+  <rect class="border" x="1" y="1" width="1198" height="378" rx="28"/>
+
+  <g transform="translate(70 68)">
+    <rect x="0" y="0" width="230" height="30" rx="15" fill="#2dd4bf" opacity=".12"/>
+    <circle cx="17" cy="15" r="4" fill="#2dd4bf"/>
+    <text class="eyebrow" x="31" y="20" font-size="13" font-weight="700" letter-spacing="1.5">SENIOR SOFTWARE ENGINEER</text>
+
+    <text class="heading" x="0" y="92" font-size="49" font-weight="760" letter-spacing="-1.4">Emmanuel Tagbor</text>
+    <rect x="0" y="113" width="380" height="4" rx="2" fill="url(#accent)"/>
+
+    <text class="body" x="0" y="163" font-size="20" font-weight="500">
+      <tspan x="0" dy="0">Turning ambiguous product problems into</tspan>
+      <tspan x="0" dy="31">clear, measurable and dependable systems.</tspan>
+    </text>
+
+    <g transform="translate(0 243)">
+      <circle cx="5" cy="-5" r="5" fill="#fbbf24"/>
+      <text class="subtle" x="20" y="0" font-size="15" font-weight="600" letter-spacing=".35">ACCRA, GHANA  ·  FULL-STACK PRODUCT ENGINEERING</text>
+    </g>
+  </g>
+
+  <g aria-hidden="true">
+    <path class="connector" d="M767 96 C815 106 847 128 883 157"/>
+    <path class="connector" d="M1073 96 C1028 108 997 130 958 158"/>
+    <path class="connector" d="M767 284 C814 273 847 251 883 222"/>
+    <path class="connector" d="M1073 284 C1028 271 997 250 958 221"/>
+
+    <g transform="translate(682 68)">
+      <rect class="node" width="170" height="56" rx="15"/>
+      <circle cx="24" cy="28" r="7" fill="#2dd4bf"/>
+      <text class="node-label" x="43" y="33" font-size="14" font-weight="760" letter-spacing="1">PRODUCT</text>
+    </g>
+    <g transform="translate(988 68)">
+      <rect class="node" width="170" height="56" rx="15"/>
+      <circle cx="24" cy="28" r="7" fill="#60a5fa"/>
+      <text class="node-label" x="43" y="33" font-size="14" font-weight="760" letter-spacing="1">BACKEND</text>
+    </g>
+    <g transform="translate(682 256)">
+      <rect class="node" width="170" height="56" rx="15"/>
+      <circle cx="24" cy="28" r="7" fill="#fb7185"/>
+      <text class="node-label" x="43" y="33" font-size="14" font-weight="760" letter-spacing="1">INSIGHT</text>
+    </g>
+    <g transform="translate(988 256)">
+      <rect class="node" width="170" height="56" rx="15"/>
+      <circle cx="24" cy="28" r="7" fill="#a78bfa"/>
+      <text class="node-label" x="43" y="33" font-size="14" font-weight="760" letter-spacing="1">DELIVERY</text>
+    </g>
+
+    <circle class="core-ring" cx="920" cy="190" r="67"/>
+    <circle cx="920" cy="190" r="48" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".9"/>
+    <text class="core-label" x="920" y="185" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2.5">BUILD</text>
+    <text class="core-label" x="920" y="207" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="1">SYSTEMS</text>
+
+    <circle class="motion" r="4" fill="#2dd4bf">
+      <animateMotion dur="4.8s" repeatCount="indefinite" path="M767 96 C815 106 847 128 883 157"/>
+    </circle>
+    <circle class="motion" r="4" fill="#60a5fa">
+      <animateMotion dur="5.6s" begin="-1.8s" repeatCount="indefinite" path="M1073 96 C1028 108 997 130 958 158"/>
+    </circle>
+    <circle class="motion" r="4" fill="#fb7185">
+      <animateMotion dur="5.2s" begin="-3.1s" repeatCount="indefinite" path="M767 284 C814 273 847 251 883 222"/>
+    </circle>
+    <circle class="motion" r="4" fill="#a78bfa">
+      <animateMotion dur="6s" begin="-2.4s" repeatCount="indefinite" path="M1073 284 C1028 271 997 250 958 221"/>
+    </circle>
+  </g>
+</svg>
