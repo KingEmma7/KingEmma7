@@ -76,7 +76,6 @@
 
   <g transform="translate(70 68)">
     <rect x="0" y="0" width="230" height="30" rx="15" fill="#2dd4bf" opacity=".12"/>
-    <circle cx="17" cy="15" r="4" fill="#2dd4bf"/>
     <text class="eyebrow" x="31" y="20" font-size="13" font-weight="700" letter-spacing="1.5">SENIOR SOFTWARE ENGINEER</text>
 
     <text class="heading" x="0" y="92" font-size="49" font-weight="760" letter-spacing="-1.4">Emmanuel Tagbor</text>
